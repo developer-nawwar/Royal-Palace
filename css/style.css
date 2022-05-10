@@ -316,6 +316,7 @@
         background: url("../img/facilities-bg.webp");
         background-size: cover;
         height: 100%;
+        background-color: rgba(4, 8, 30, 0.7);
     }
     
     .hotel-facilities {
@@ -366,6 +367,38 @@
         font-weight: 800;
         margin-bottom: 0;
         margin-right: 0.5rem;
+    }
+    
+    .about-us h2 {
+        font-size: 5rem;
+        line-height: 6rem;
+        font-weight: 900;
+        color: #222;
+        font-family: "Poppins", sans-serif;
+        text-align: start;
+    }
+    
+    .about-us p {
+        text-align: start;
+        margin-bottom: 3rem;
+    }
+    
+    .about-us img {
+        text-align: start;
+        height: 100%;
+    }
+    
+    .about-us .btn-book {
+        width: 50%;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 30px;
+        background: #222;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 5px 29px;
+        margin-bottom: 2rem;
     }
     
     @media (min-width: 700px) {
