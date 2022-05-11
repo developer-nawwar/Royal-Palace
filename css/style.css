@@ -550,6 +550,108 @@
         margin: 1rem 1rem 1rem 0;
     }
     
+    footer {
+        background: #04091e;
+        padding: 10rem 0;
+    }
+    
+    footer .footer-item {
+        margin-left: 2rem;
+    }
+    
+    footer .footer-item p {
+        line-height: 24px;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        color: #777;
+        text-align: start;
+    }
+    
+    footer .footer-item ul {
+        list-style: none;
+        line-height: 24px;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        color: #777;
+        text-align: start;
+        padding: 0%;
+    }
+    
+    footer .footer-item ul li a {
+        line-height: 2rem;
+        display: inline-block;
+        color: #777;
+        -webkit-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        margin-bottom: 13px;
+        font-size: 1rem;
+    }
+    
+    footer .form-group {
+        position: relative;
+        margin-top: 1rem;
+    }
+    
+    footer .footer-item input {
+        border: 1px solid #333;
+        font-size: 13px;
+        line-height: 30px;
+        padding-right: 40px;
+        height: 40px;
+        color: #999;
+        background: transparent;
+        padding-left: 20px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .sub-btn {
+        background: #f3c300;
+        color: #fff;
+        font-weight: 300;
+        border-radius: 0;
+        line-height: 34px;
+        padding: 4px 11px 0;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        border: none;
+    }
+    
+    .sub-btn i {
+        color: #fff;
+    }
+    
+    footer h6 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 1.5rem 0;
+    }
+    
+    .instead-list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        line-height: 24px;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        color: #777;
+    }
+    
+    .instead-list li {
+        margin: 5px;
+    }
+    
     @media (min-width: 700px) {
         nav {
             height: 7rem;
