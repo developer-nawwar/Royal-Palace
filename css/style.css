@@ -491,15 +491,20 @@
         */
         overflow: hidden;
         margin-top: 4rem;
-        transition: all ease-in-out 5s;
-        -webkit-transition: all ease-in-out 5s;
-        -moz-transition: all ease-in-out 5s;
-        -ms-transition: all ease-in-out 5s;
-        -o-transition: all ease-in-out 5s;
+        -webkit-transition: all .7s linear;
+        -moz-transition: all .7s linear;
+        -ms-transition: all .7s linear;
+        -o-transition: all .7s linear;
+        transition: all .7s linear;
     }
     
     .blog-item img {
         width: 100%;
+        -webkit-transition: all .7s linear;
+        -moz-transition: all .7s linear;
+        -ms-transition: all .7s linear;
+        -o-transition: all .7s linear;
+        transition: all .7s linear;
     }
     
     .blog-item img:hover {
